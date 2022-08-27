@@ -2,10 +2,16 @@
   "name": "section-7---application-deployment",
   "version": "1.0.0",
   "description": "Learning Application Deployment",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "hbs": "^4.0.1",
+    "node-fetch": "2.0",
+    "request": "^2.88.2"
+  }
 }
